@@ -1,0 +1,23 @@
+.transactionHistory {
+  margin: 40px auto;
+  border-collapse: collapse;
+  border-radius: 5px;
+  text-align: center;
+  width: 600px;
+}
+.thead {
+  background-color: darkturquoise;
+  color: white;
+  height: 40px;
+}
+.tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+.tbody tr {
+  color: darkslategrey;
+  height: 40px;
+}
+.tbody td,
+.thead th {
+  border: 1px solid white;
+}
